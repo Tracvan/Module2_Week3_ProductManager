@@ -1,11 +1,8 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class ProductManager {
     Scanner scanner = new Scanner(System.in);
-    List<Product> productsList = new ArrayList<>();
+    List<Product> productsList = new LinkedList<>();
 
     public  void addProduct(Product product) {
         productsList.add(product);
